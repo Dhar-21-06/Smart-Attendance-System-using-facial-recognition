@@ -43,40 +43,40 @@ python main.py
 
 **2. Register New User:**
 
--Enter the user ID and name.
--Capture around 100 pictures for the user profile.
+- Enter the user ID and name.
+- Capture around 100 pictures for the user profile.
 
 **3.Take Attendance:**
 
--Select an existing user and click Take Attendance.
--A camera screen will appear, displaying the person with their identity.
--If the person is not in the database, it will show Unknown.
+- Select an existing user and click Take Attendance.
+- A camera screen will appear, displaying the person with their identity.
+- If the person is not in the database, it will show Unknown.
 
 **4. Notify Absentees:**
 
--The system can notify absentees based on the attendance records in the database.
+- The system can notify absentees based on the attendance records in the database.
 
 ## Folder Structure
 
--TrainingImage/ – Stores images captured for user profiles
--TrainingImageLabel/ – Contains trained labels and data files
--StudentDetails/ – CSV file with student information
--Attendance/ – Attendance records
--main.py – Main program to run the system
--haarcascade_frontalface_default.xml – Pre-trained Haar cascade file for face detection
+- TrainingImage/ – Stores images captured for user profiles
+- TrainingImageLabel/ – Contains trained labels and data files
+- StudentDetails/ – CSV file with student information
+- Attendance/ – Attendance records
+- main.py – Main program to run the system
+- haarcascade_frontalface_default.xml – Pre-trained Haar cascade file for face detection
 
 ## Features
 
--Face detection and recognition using LBPH Face Recognizer
--Automatic attendance logging
--Capture multiple images for accurate recognition
--Unknown user detection
--Absentee notification
+- Face detection and recognition using LBPH Face Recognizer
+- Automatic attendance logging
+- Capture multiple images for accurate recognition
+- Unknown user detection
+- Absentee notification
 
 ## Future Improvements
--Integration with email/SMS notifications
--Web-based dashboard for monitoring attendance
--Real-time analytics for student attendance patterns
+- Integration with email/SMS notifications
+- Web-based dashboard for monitoring attendance
+- Real-time analytics for student attendance patterns
 
 ## Author
 **Dharshini S**
