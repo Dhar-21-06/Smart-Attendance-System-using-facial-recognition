@@ -1,19 +1,20 @@
-# Python
+# Python compiled files
 __pycache__/
 *.pyc
 *.pyo
-*.pyd
-*.db
 
 # Virtual environment
 venv/
 env/
 
-# Dataset / Training images
+# Data folders
 TrainingImage/
-StudentDetails/
 TrainingImageLabel/
+StudentDetails/
 
-# OS files
+# System files
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
